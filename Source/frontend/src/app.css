@@ -1,0 +1,60 @@
+.commands {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    gap: 10px;
+    background-color: rgb(49, 49, 49);
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 254, 224);
+    font-size: 15px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.text {
+    color: rgb(255, 254, 224);
+    background-color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 100%;
+    resize: none;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+
+.text:focus {
+    border: none;
+    outline: none;
+}
+
+
+.status {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 25px;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+}
+
+.info {
+    color: rgb(255, 254, 224);
+    font-size: 15px;
+    margin-left: 10px;
+}

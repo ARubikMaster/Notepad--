@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>notepad--</title>
+</head>
+<body>
+    <div id="app">
+        <div class="commands">
+            <button class="btn" id="save" onclick="save()">Save</button>
+            <button class="btn" id="open" onclick="open_file()">Open</button>
+            <button class="btn" id="save-as" onclick="saveas()">Save As</button>
+            <button class="btn" id="new" onclick="new_file()">New</button>
+            <button class="btn" id="path" onclick="reveal()">*Unsaved</button>
+        </div>
+        <div class="content">
+            <textarea class="text" id="text"></textarea>
+        </div>
+        <div class="status">
+            <p class="info" id="info">untitled - 0 words</p>
+        </div>
+    </div>
+    <script src="./src/main.js" type="module"></script>
+</body>
+</html>
